@@ -1,0 +1,10 @@
+;facebook.com testing zone file for rldns daemon
+;use comma to put comment(s)
+masterzone facebook.com
+Arecord 192.168.0.101
+CNAMErecord www
+CNAMErecord login
+CNAMErecord star
+MXrecord mail
+NSrecord ns1 192.168.0.101 
+NSrecord ns2 192.168.0.1

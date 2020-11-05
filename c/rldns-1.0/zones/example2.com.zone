@@ -1,0 +1,11 @@
+;kampret.biz testing zone file for rldns daemon
+;use comma to put comment(s)
+masterzone kampret.biz
+Arecord 212.212.212.212
+CNAMErecord www
+CNAMErecord blog
+CNAMErecord mail
+MXrecord mail
+NSrecord kam1 192.168.0.1 
+NSrecord kam2 192.168.0.2
+NSrecord kam3 192.168.0.3

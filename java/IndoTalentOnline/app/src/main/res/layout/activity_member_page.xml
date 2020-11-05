@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ringlayer.indotalent.MemberPage">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+            android:weightSum="2"
+        android:background="@color/textarea"
+        android:orientation="horizontal">
+                <LinearLayout
+
+                    android:weightSum="2"
+                    android:gravity="left"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                android:layout_height="40dp"
+                android:background="@color/textarea"
+                android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="6dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/home"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/home" />
+
+                    <TextView
+                        android:layout_width="6dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/ikonuser"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="left"
+                        android:layout_marginRight="4dp"
+                        android:background="@drawable/iconuser" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:weightSum="2"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:background="@color/textarea"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/settingbar"
+                        android:layout_marginRight="4dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="right"
+                        android:layout_alignParentTop="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/dotbar" />
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/menubar"
+                        android:layout_marginRight="4dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="right"
+                        android:layout_alignParentTop="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/menubar" />
+
+
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:onClick="closeApplication"
+                        android:id="@+id/close"
+                        android:layout_marginRight="4dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="right"
+                        android:layout_alignParentTop="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/close" />
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <WebView
+        android:id="@+id/memberarea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:layout_marginTop="35dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,29 @@
+;ringlayer.net.zone testing zone file for rldns daemon
+;use comma to put comment(s)
+masterzone ringlayer.net
+Arecord 192.168.1.1
+Arecord 192.168.1.2
+Arecord 192.168.1.3
+Arecord 192.168.1.4
+Arecord 192.168.1.5
+Arecord 192.168.1.6
+Arecord 192.168.1.7
+Arecord 192.168.1.8
+Arecord 192.168.1.9
+Arecord 192.168.1.10
+Arecord 192.168.1.11
+Arecord 192.168.1.12
+Arecord 192.168.1.13
+Arecord 192.168.1.14
+Arecord 192.168.1.15
+Arecord 192.168.1.16
+Arecord 192.168.1.17
+Arecord 192.168.1.18
+CNAMErecord blog
+CNAMErecord www
+CNAMErecord mail
+MXrecord rail
+NSrecord nsx1 198.169.2.4 
+NSrecord nsx2 198.169.3.5
+NSrecord nsx3 198.169.4.6
+NSrecord nsx4 198.169.5.9

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Simple Stock Inventory</string>
+
+    <string name="search_input">Search Product</string>
+
+
+    <!-- START BUTTONS -->
+    <string name="in">Stock - IN</string>
+    <string name="out">Stock - OUT</string>
+
+    <string name="gob">Go</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="back">Back</string>
+    <!-- EOF BUTTONS -->
+
+    <!-- START TEXTBOXES -->
+    <string name="code">Product Code</string>
+    <string name="name">Product Name</string>
+    <string name="amount">Amount</string>
+    <!-- EOF TEXTBOXES -->
+
+
+    <!-- START RESOURCE FILES -->
+    <string name="sdir">/sdcard/simplestock</string>
+    <string name="sfil">/sdcard/simplestock/stock.dat</string>
+
+    <!-- EOF RESOURCE FILES -->
+
+</resources>
