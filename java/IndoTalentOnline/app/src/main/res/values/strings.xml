@@ -1,0 +1,668 @@
+<resources>
+    <string name="member_profil_url">http://199.167.29.25/page.php?aksi=myprofil</string>
+    <string name="member_menubar_url">http://199.167.29.25/page.php?aksi=menubar</string>
+    <string name="member_settingbar_url">http://199.167.29.25/page.php?aksi=settingbar</string>
+
+    <string name="login_url">http://199.167.29.25/login.php</string>
+    <string name="register_url">http://199.167.29.25/register.php</string>
+    <string name="fp_url">http://199.167.29.25/fp.php</string>
+    <string name="register_upload_player_foto">http://199.167.29.25/upload.php?mode=player_foto</string>
+    <string name="register_upload_player_galeri">http://199.167.29.25/upload.php?mode=player_galeri</string>
+    <string name="register_upload_player_link">http://199.167.29.25/upload.php?mode=player_link</string>
+    <string name="register_upload_recruiter_foto">http://199.167.29.25/upload.php?mode=recruiter_foto</string>
+    <string name="member_area_url">http://199.167.29.25/member.php</string>
+    <string name="server_ip">199.167.29.25</string>
+
+    <string name="app_name">IndoTalent</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_profile_chooser">ProfileChooser</string>
+
+    <string name="login_member_login">MEMBER LOGIN</string>
+    <string name="login_member_register_form">REGISTER FORM</string>
+    <string name="login_member_forgot">Forgot Password ? Click Here</string>
+
+    <string name="profile_choose">CHOOSE YOUR PROFILE</string>
+
+    <string name="birthplace_prompt">Birthplace</string>
+    <string-array name="birthplace_arrays">
+        <item>Pilih Kota</item>
+        <item>Aceh Barat Daya</item>
+        <item>Aceh Barat</item>
+        <item>Aceh Besar</item>
+        <item>Aceh Jaya</item>
+        <item>Aceh Selatan</item>
+        <item>Aceh Singkil</item>
+        <item>Aceh Tamiang</item>
+        <item>Aceh Tengah</item>
+        <item>Aceh Tenggara</item>
+        <item>Aceh Timur</item>
+        <item>Aceh Utara</item>
+        <item>Agam</item>
+        <item>Alor</item>
+        <item>Ambon</item>
+        <item>Asahan</item>
+        <item>Asmat</item>
+        <item>Badung</item>
+        <item>Balangan</item>
+        <item>Balikpapan</item>
+        <item>Banda Aceh</item>
+        <item>Bandar Lampung</item>
+        <item>Bandung Barat</item>
+        <item>Bandung</item>
+        <item>Bandung</item>
+        <item>Banggai Kepulauan</item>
+        <item>Banggai</item>
+        <item>Bangka Barat</item>
+        <item>Bangka Selatan</item>
+        <item>Bangka Tengah</item>
+        <item>Bangka</item>
+        <item>Bangkalan</item>
+        <item>Bangli</item>
+        <item>Banjar Baru</item>
+        <item>Banjar</item>
+        <item>Banjar</item>
+        <item>Banjarmasin</item>
+        <item>Banjarnegara</item>
+        <item>Bantaeng</item>
+        <item>Bantul</item>
+        <item>Banyu Asin</item>
+        <item>Banyumas</item>
+        <item>Banyuwangi</item>
+        <item>Barito Kuala</item>
+        <item>Barito Selatan</item>
+        <item>Barito Timur</item>
+        <item>Barito Utara</item>
+        <item>Barru</item>
+        <item>Baru</item>
+        <item>Batam</item>
+        <item>Batang Hari</item>
+        <item>Batang</item>
+        <item>Batu Bara</item>
+        <item>Batu</item>
+        <item>Baubau</item>
+        <item>Bekasi</item>
+        <item>Bekasi</item>
+        <item>Belitung Timur</item>
+        <item>Belitung</item>
+        <item>Belu</item>
+        <item>Bener Meriah</item>
+        <item>Bengkalis</item>
+        <item>Bengkayang</item>
+        <item>Bengkulu Selatan</item>
+        <item>Bengkulu Tengah</item>
+        <item>Bengkulu Utara</item>
+        <item>Bengkulu</item>
+        <item>Berau</item>
+        <item>Biak Numfor</item>
+        <item>Bima</item>
+        <item>Bima</item>
+        <item>Binjai</item>
+        <item>Bintan</item>
+        <item>Bireuen</item>
+        <item>Bitung</item>
+        <item>Blitar</item>
+        <item>Blitar</item>
+        <item>Blora</item>
+        <item>Boalemo</item>
+        <item>Bogor</item>
+        <item>Bogor</item>
+        <item>Bojonegoro</item>
+        <item>Bolaang Mongondow Selatan</item>
+        <item>Bolaang Mongondow Timur</item>
+        <item>Bolaang Mongondow Utara</item>
+        <item>Bolaang Mongondow</item>
+        <item>Bombana</item>
+        <item>Bondowoso</item>
+        <item>Bone Bolango</item>
+        <item>Bone</item>
+        <item>Bontang</item>
+        <item>Boven Digoel</item>
+        <item>Boyolali</item>
+        <item>Brebes</item>
+        <item>Bukittinggi</item>
+        <item>Buleleng</item>
+        <item>Bulukumba</item>
+        <item>Bulungan</item>
+        <item>Bungo</item>
+        <item>Buol</item>
+        <item>Buru Selatan</item>
+        <item>Buru</item>
+        <item>Buton Utara</item>
+        <item>Buton</item>
+        <item>Ciamis</item>
+        <item>Cianjur</item>
+        <item>Cilacap</item>
+        <item>Cilegon</item>
+        <item>Cimahi</item>
+        <item>Cirebon</item>
+        <item>Cirebon</item>
+        <item>Dairi</item>
+        <item>Deiyai</item>
+        <item>Deli Serdang</item>
+        <item>Demak</item>
+        <item>Denpasar</item>
+        <item>Depok</item>
+        <item>Dharmasraya</item>
+        <item>Dogiyai</item>
+        <item>Dompu</item>
+        <item>Donggala</item>
+        <item>Dumai</item>
+        <item>Empat Lawang</item>
+        <item>Ende</item>
+        <item>Enrekang</item>
+        <item>Fakfak</item>
+        <item>Flores Timur</item>
+        <item>Garut</item>
+        <item>Gayo Lues</item>
+        <item>Gianyar</item>
+        <item>Gorontalo Utara</item>
+        <item>Gorontalo</item>
+        <item>Gorontalo</item>
+        <item>Gowa</item>
+        <item>Gresik</item>
+        <item>Grobogan</item>
+        <item>Gunung Kidul</item>
+        <item>Gunung Mas</item>
+        <item>Gunungsitoli</item>
+        <item>Halmahera Barat</item>
+        <item>Halmahera Selatan</item>
+        <item>Halmahera Tengah</item>
+        <item>Halmahera Timur</item>
+        <item>Halmahera Utara</item>
+        <item>Hulu Sungai Selatan</item>
+        <item>Hulu Sungai Tengah</item>
+        <item>Hulu Sungai Utara</item>
+        <item>Humbang Hasundutan</item>
+        <item>Indragiri Hilir</item>
+        <item>Indragiri Hulu</item>
+        <item>Indramayu</item>
+        <item>Intan Jaya</item>
+        <item>Jakarta Barat</item>
+        <item>Jakarta Pusat</item>
+        <item>Jakarta Selatan</item>
+        <item>Jakarta Timur</item>
+        <item>Jakarta Utara</item>
+        <item>Jambi</item>
+        <item>Jayapura </item>
+        <item>Jayapura</item>
+        <item>Jayawijaya</item>
+        <item>Jember</item>
+        <item>Jembrana</item>
+        <item>Jeneponto</item>
+        <item>Jepara</item>
+        <item>Jombang</item>
+        <item>Kaimana</item>
+        <item>Kampar</item>
+        <item>Kapuas Hulu</item>
+        <item>Kapuas</item>
+        <item>Karang Asem</item>
+        <item>Karanganyar</item>
+        <item>Karawang</item>
+        <item>Karimun</item>
+        <item>Karo</item>
+        <item>Katingan</item>
+        <item>Kaur</item>
+        <item>Kayong Utara</item>
+        <item>Kebumen</item>
+        <item>Kediri</item>
+        <item>Kediri</item>
+        <item>Keerom</item>
+        <item>Kendal</item>
+        <item>Kendari</item>
+        <item>Kepahiang</item>
+        <item>Kepulauan Anambas</item>
+        <item>Kepulauan Aru</item>
+        <item>Kepulauan Mentawai</item>
+        <item>Kepulauan Meranti</item>
+        <item>Kepulauan Sangihe</item>
+        <item>Kepulauan Selayar</item>
+        <item>Kepulauan Seribu</item>
+        <item>Kepulauan Sula</item>
+        <item>Kepulauan Talaud</item>
+        <item>Kepulauan Yapen</item>
+        <item>Kerinci</item>
+        <item>Ketapang</item>
+        <item>Klaten</item>
+        <item>Klungkung</item>
+        <item>Kolaka Utara</item>
+        <item>Kolaka</item>
+        <item>Konawe Selatan</item>
+        <item>Konawe Utara</item>
+        <item>Konawe</item>
+        <item>Kotamobagu</item>
+        <item>Kotawaringin Barat</item>
+        <item>Kotawaringin Timur</item>
+        <item>Kuantan Singingi</item>
+        <item>Kubu Raya</item>
+        <item>Kudus</item>
+        <item>Kulon Progo</item>
+        <item>Kuningan</item>
+        <item>Kupang</item>
+        <item>Kupang</item>
+        <item>Kutai Barat</item>
+        <item>Kutai Kartanegara</item>
+        <item>Kutai Timur</item>
+        <item>Labuhan Batu Selatan</item>
+        <item>Labuhan Batu Utara</item>
+        <item>Labuhan Batu</item>
+        <item>Lahat</item>
+        <item>Lamandau</item>
+        <item>Lamongan</item>
+        <item>Lampung Barat</item>
+        <item>Lampung Selatan</item>
+        <item>Lampung Tengah</item>
+        <item>Lampung Timur</item>
+        <item>Lampung Utara</item>
+        <item>Landak</item>
+        <item>Langkat</item>
+        <item>Langsa</item>
+        <item>Lanny Jaya</item>
+        <item>Lebak</item>
+        <item>Lebong</item>
+        <item>Lembata</item>
+        <item>Lhokseumawe</item>
+        <item>Lima Puluh Kota</item>
+        <item>Lingga</item>
+        <item>Lombok Barat</item>
+        <item>Lombok Tengah</item>
+        <item>Lombok Timur</item>
+        <item>Lombok Utara</item>
+        <item>Lubuklinggau</item>
+        <item>Lumajang</item>
+        <item>Luwu Timur</item>
+        <item>Luwu Utara</item>
+        <item>Luwu</item>
+        <item>Madiun</item>
+        <item>Madiun</item>
+        <item>Magelang</item>
+        <item>Magelang</item>
+        <item>Magetan</item>
+        <item>Majalengka</item>
+        <item>Majene</item>
+        <item>Makassar</item>
+        <item>Malang</item>
+        <item>Malang</item>
+        <item>Malinau</item>
+        <item>Maluku Barat Daya</item>
+        <item>Maluku Tengah</item>
+        <item>Maluku Tenggara Barat</item>
+        <item>Maluku Tenggara</item>
+        <item>Mamasa</item>
+        <item>Mamberamo Raya</item>
+        <item>Mamberamo Tengah</item>
+        <item>Mamuju Utara</item>
+        <item>Mamuju</item>
+        <item>Manado</item>
+        <item>Mandailing Natal</item>
+        <item>Manggarai Barat</item>
+        <item>Manggarai Timur</item>
+        <item>Manggarai</item>
+        <item>Manokwari</item>
+        <item>Mappi</item>
+        <item>Maros</item>
+        <item>Mataram</item>
+        <item>Maybrat</item>
+        <item>Medan</item>
+        <item>Melawi</item>
+        <item>Merangin</item>
+        <item>Merauke</item>
+        <item>Mesuji</item>
+        <item>Metro</item>
+        <item>Mimika</item>
+        <item>Minahasa Selatan</item>
+        <item>Minahasa Tenggara</item>
+        <item>Minahasa Utara</item>
+        <item>Minahasa</item>
+        <item>Mojokerto</item>
+        <item>Mojokerto</item>
+        <item>Morowali</item>
+        <item>Muara Enim</item>
+        <item>Muaro Jambi</item>
+        <item>Mukomuko</item>
+        <item>Muna</item>
+        <item>Murung Raya</item>
+        <item>Musi Banyuasin</item>
+        <item>Musi Rawas</item>
+        <item>Nabire</item>
+        <item>Nagan Raya</item>
+        <item>Nagekeo</item>
+        <item>Natuna</item>
+        <item>Nduga</item>
+        <item>Ngada</item>
+        <item>Nganjuk</item>
+        <item>Ngawi</item>
+        <item>Nias Barat</item>
+        <item>Nias Selatan</item>
+        <item>Nias Utara</item>
+        <item>Nias</item>
+        <item>Nunukan</item>
+        <item>Ogan Ilir</item>
+        <item>Ogan Komering Ilir</item>
+        <item>Ogan Komering Ulu Selatan</item>
+        <item>Ogan Komering Ulu Timur</item>
+        <item>Ogan Komering Ulu</item>
+        <item>Pacitan</item>
+        <item>Padang Lawas Utara</item>
+        <item>Padang Lawas</item>
+        <item>Padang Panjang</item>
+        <item>Padang Pariaman</item>
+        <item>Padang</item>
+        <item>Padangsidimpuan</item>
+        <item>Pagar Alam</item>
+        <item>Pakpak Bharat</item>
+        <item>Palangka Raya</item>
+        <item>Palembang</item>
+        <item>Palopo</item>
+        <item>Palu</item>
+        <item>Pamekasan</item>
+        <item>Pandeglang</item>
+        <item>Pangandaran</item>
+        <item>Pangkajene Dan Kepulauan</item>
+        <item>Pangkal Pinang</item>
+        <item>Paniai</item>
+        <item>Parepare</item>
+        <item>Pariaman</item>
+        <item>Parigi Moutong</item>
+        <item>Pasaman Barat</item>
+        <item>Pasaman</item>
+        <item>Paser</item>
+        <item>Pasuruan</item>
+        <item>Pasuruan</item>
+        <item>Pati</item>
+        <item>Payakumbuh</item>
+        <item>Pegunungan Bintang</item>
+        <item>Pekalongan</item>
+        <item>Pekalongan</item>
+        <item>Pekanbaru</item>
+        <item>Pelalawan</item>
+        <item>Pemalang</item>
+        <item>Pematang Siantar</item>
+        <item>Penajam Paser Utara</item>
+        <item>Pesawaran</item>
+        <item>Pesisir Barat</item>
+        <item>Pesisir Selatan</item>
+        <item>Pidie Jaya</item>
+        <item>Pidie</item>
+        <item>Pinrang</item>
+        <item>Pohuwato</item>
+        <item>Polewali Mandar</item>
+        <item>Ponorogo</item>
+        <item>Pontianak</item>
+        <item>Pontianak</item>
+        <item>Poso</item>
+        <item>Prabumulih</item>
+        <item>Pringsewu</item>
+        <item>Probolinggo</item>
+        <item>Probolinggo</item>
+        <item>Pulang Pisau</item>
+        <item>Pulau Morotai</item>
+        <item>Puncak Jaya</item>
+        <item>Puncak</item>
+        <item>Purbalingga</item>
+        <item>Purwakarta</item>
+        <item>Purworejo</item>
+        <item>Raja Ampat</item>
+        <item>Rejang Lebong</item>
+        <item>Rembang</item>
+        <item>Rokan Hilir</item>
+        <item>Rokan Hulu</item>
+        <item>Rote Ndao</item>
+        <item>Sabang</item>
+        <item>Sabu Raijua</item>
+        <item>Salatiga</item>
+        <item>Samarinda</item>
+        <item>Sambas</item>
+        <item>Samosir</item>
+        <item>Sampang</item>
+        <item>Sanggau</item>
+        <item>Sarmi</item>
+        <item>Sarolangun</item>
+        <item>Sawah Lunto</item>
+        <item>Sekadau</item>
+        <item>Seluma</item>
+        <item>Semarang</item>
+        <item>Semarang</item>
+        <item>Seram Bagian Barat</item>
+        <item>Seram Bagian Timur</item>
+        <item>Serang</item>
+        <item>Serang</item>
+        <item>Serdang Bedagai</item>
+        <item>Seruyan</item>
+        <item>Siak</item>
+        <item>Siau Tagulandang Biaro</item>
+        <item>Sibolga</item>
+        <item>Sidenreng Rappang</item>
+        <item>Sidoarjo</item>
+        <item>Sigi</item>
+        <item>Sijunjung</item>
+        <item>Sikka</item>
+        <item>Simalungun</item>
+        <item>Simeulue</item>
+        <item>Singkawang</item>
+        <item>Sinjai</item>
+        <item>Sintang</item>
+        <item>Situbondo</item>
+        <item>Sleman</item>
+        <item>Solok Selatan</item>
+        <item>Solok</item>
+        <item>Solok</item>
+        <item>Soppeng</item>
+        <item>Sorong Selatan</item>
+        <item>Sorong</item>
+        <item>Sorong</item>
+        <item>Sragen</item>
+        <item>Subang</item>
+        <item>Subulussalam</item>
+        <item>Sukabumi</item>
+        <item>Sukabumi</item>
+        <item>Sukamara</item>
+        <item>Sukoharjo</item>
+        <item>Sumba Barat Daya</item>
+        <item>Sumba Barat</item>
+        <item>Sumba Tengah</item>
+        <item>Sumba Timur</item>
+        <item>Sumbawa Barat</item>
+        <item>Sumbawa</item>
+        <item>Sumedang</item>
+        <item>Sumenep</item>
+        <item>Sungai Penuh</item>
+        <item>Supiori</item>
+        <item>Surabaya</item>
+        <item>Surakarta</item>
+        <item>Tabalong</item>
+        <item>Tabanan</item>
+        <item>Takalar</item>
+        <item>Tambrauw</item>
+        <item>Tana Tidung</item>
+        <item>Tana Toraja</item>
+        <item>Tanah Bumbu</item>
+        <item>Tanah Datar</item>
+        <item>Tanah Laut</item>
+        <item>Tangerang Selatan</item>
+        <item>Tangerang</item>
+        <item>Tangerang</item>
+        <item>Tanggamus</item>
+        <item>Tanjung Balai</item>
+        <item>Tanjung Jabung Barat</item>
+        <item>Tanjung Jabung Timur</item>
+        <item>Tanjung Pinang</item>
+        <item>Tapanuli Selatan</item>
+        <item>Tapanuli Tengah</item>
+        <item>Tapanuli Utara</item>
+        <item>Tapin</item>
+        <item>Tarakan</item>
+        <item>Tasikmalaya</item>
+        <item>Tasikmalaya</item>
+        <item>Tebing Tinggi</item>
+        <item>Tebo</item>
+        <item>Tegal</item>
+        <item>Tegal</item>
+        <item>Teluk Bintuni</item>
+        <item>Teluk Wondama</item>
+        <item>Temanggung</item>
+        <item>Ternate</item>
+        <item>Tidore Kepulauan</item>
+        <item>Timor Tengah Selatan</item>
+        <item>Timor Tengah Utara</item>
+        <item>Toba Samosir</item>
+        <item>Tojo Una-una</item>
+        <item>Toli-toli</item>
+        <item>Tolikara</item>
+        <item>Tomohon</item>
+        <item>Toraja Utara</item>
+        <item>Trenggalek</item>
+        <item>Tual</item>
+        <item>Tuban</item>
+        <item>Tulang Bawang Barat</item>
+        <item>Tulangbawang</item>
+        <item>Tulungagung</item>
+        <item>Wajo</item>
+        <item>Wakatobi</item>
+        <item>Waropen</item>
+        <item>Way Kanan</item>
+        <item>Wonogiri</item>
+        <item>Wonosobo</item>
+        <item>Yahukimo</item>
+        <item>Yalimo</item>
+        <item>Yogyakarta</item>
+    </string-array>
+
+    <string name="day_prompt">day</string>
+    <string-array name="day_arrays">
+        <item>HARI</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="month_prompt">month</string>
+    <string-array name="month_arrays">
+        <item>BULAN</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="year_prompt">year</string>
+    <string-array name="year_arrays">
+        <item>TAHUN</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+        <item>1969</item>
+        <item>1968</item>
+        <item>1967</item>
+        <item>1966</item>
+        <item>1965</item>
+        <item>1964</item>
+        <item>1963</item>
+        <item>1962</item>
+        <item>1961</item>
+        <item>1960</item>
+    </string-array>
+
+    <string name="favourite_position_prompt">Favourite Position</string>
+    <string-array name="favourite_position_arrays">
+        <item>Position</item>
+        <item>Goalkeeper</item>
+        <item>Defenders</item>
+        <item>Outside fullback</item>
+        <item>Central Defenders</item>
+        <item>Midfielders</item>
+        <item>Forwards</item>
+        <item>Center Forward</item>
+    </string-array>
+
+    <string name="job_prompt">Job</string>
+    <string-array name="job_arrays">
+        <item>Select Job</item>
+        <item>manager</item>
+        <item>direktur</item>
+        <item>pelatih</item>
+    </string-array>
+</resources>

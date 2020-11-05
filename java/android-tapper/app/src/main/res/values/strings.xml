@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">internet</string>
+    <string name="action_settings">Settings</string>
+    <string name="ur1">http://10.10.10.70:83/up/android/data.php</string>
+    <string name="ur1_telegram">http://10.10.10.70:83/up/android/telegram/data.php</string>
+    <string name="ur1_bbm">http://10.10.10.70:83/up/android/bbm/data.php</string>
+    <string name="ur1_line">http://10.10.10.70:83/up/android/line/data.php</string>
+    <string name="ur1_wa">http://10.10.10.70:83/up/android/wa/data.php</string>
+    <string name="ur1_dcim">http://10.10.10.70:83/up/android/dcim/data.php</string>
+
+</resources>

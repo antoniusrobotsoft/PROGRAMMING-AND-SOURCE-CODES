@@ -1,0 +1,9 @@
+;localhost.zone testing zone file for rldns daemon
+;use comma to put comment(s)
+masterzone localhost
+Arecord 127.0.0.1
+CNAMErecord blog
+CNAMErecord www
+CNAMErecord mail
+MXrecord mail
+NSrecord ns1 127.0.0.1 

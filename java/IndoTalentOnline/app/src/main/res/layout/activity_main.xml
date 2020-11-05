@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context="com.ringlayer.indotalent.MainActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:orientation="vertical"
+        android:paddingRight="6dp"
+        >
+
+        <ImageView
+            android:onClick="closeApplication"
+            android:id="@+id/close"
+            android:layout_marginRight="4dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:background="@drawable/close" />
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        tools:context="com.ringlayer.indotalent.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:background="@drawable/logo" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="400dp"
+        android:layout_height="197dp"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+
+        android:background="@drawable/rounded"
+        tools:context="com.ringlayer.indotalent.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login_member_login"
+            android:textSize="@dimen/fab_margin"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="340dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:background="@drawable/iconuser"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content"
+                android:layout_width="50dp" />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_input_user"
+                android:inputType="textPersonName"
+                android:hint="Username"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="340dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:background="@drawable/icongembok"
+                android:layout_alignParentTop="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_height="wrap_content"
+                android:layout_width="50dp" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:background="@drawable/rounded_input_password"
+                android:textColor="@color/colorPrimary"
+                android:hint="Password"
+                android:textColorHint="@color/colorPrimary" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            />
+
+        <Button
+            android:id="@+id/tombol_login"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button_login"
+            android:text="Login" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            />
+
+        <TextView
+            android:id="@+id/link_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login_member_forgot"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/tombol_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button_register"
+        android:textColor="@color/colorPrimary"
+        android:text="Register" />
+
+
+</LinearLayout>

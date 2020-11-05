@@ -1,0 +1,17 @@
+;example1.or.id testing zone file for rldns daemon
+;use comma to put comment(s)
+masterzone example1.or.id
+;you can provide a record up to 18 (max is 18)
+Arecord 10.10.0.1
+Arecord 10.10.1.2
+Arecord 192.168.1.2
+Arecord 192.168.1.3
+Arecord 192.168.2.4
+CNAMErecord www
+CNAMErecord blog
+CNAMErecord mail
+MXrecord smtp
+NSrecord ns1 192.168.1.1 
+NSrecord ns2 192.168.1.2
+NSrecord ns3 192.168.1.3
+NSrecord ns4 192.168.1.4

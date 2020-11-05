@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hitam">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="textarea">#555b64</color>
+    <color name="login">#b5b2af</color>
+    <color name="box_ku">#ffffff</color>
+    <color name="ijo1">#49e13e</color>
+</resources>
