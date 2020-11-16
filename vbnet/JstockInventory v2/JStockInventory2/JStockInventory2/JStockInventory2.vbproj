@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{540BE6B8-E8B6-4273-B700-2D84FDE873CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>JStockInventory2.My.MyApplication</StartupObject>
+    <RootNamespace>JStockInventory2</RootNamespace>
+    <AssemblyName>JStockInventory2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ringlayer\Desktop\jstockinventory\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.jasaplus.com</SupportUrl>
+    <ErrorReportUrl>http://ringlayer.net</ErrorReportUrl>
+    <TargetCulture>id</TargetCulture>
+    <ProductName>jstockinventory</ProductName>
+    <PublisherName>Ringlayer Robotic</PublisherName>
+    <SuiteName>jstockinventory</SuiteName>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>JStockInventory2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>JStockInventory2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C5D6A1CB2C7518F3829DF1A4DEAA2BE90E174033</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>JStockInventory2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="basic_op.vb" />
+    <Compile Include="Crypto.vb" />
+    <Compile Include="data_object.vb" />
+    <Compile Include=".Designer.vb">
+      <DependentUpon>form_master_data_customer_add.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_csv.Designer.vb">
+      <DependentUpon>form_csv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_csv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_delete_all.Designer.vb">
+      <DependentUpon>form_delete_all.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_delete_all.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_currency.Designer.vb">
+      <DependentUpon>form_master_currency.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_currency.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_currency_add.Designer.vb">
+      <DependentUpon>form_master_data_currency_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_currency_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_customer_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_about.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_about.Designer.vb">
+      <DependentUpon>form_about.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_login.Designer.vb">
+      <DependentUpon>form_login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_customer.Designer.vb">
+      <DependentUpon>form_master_data_customer.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_gudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_gudang.Designer.vb">
+      <DependentUpon>form_master_data_gudang.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_gudang_add.Designer.vb">
+      <DependentUpon>form_master_data_gudang_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_gudang_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_kas.Designer.vb">
+      <DependentUpon>form_master_data_kas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_kas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_kategori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_kategori.Designer.vb">
+      <DependentUpon>form_master_data_kategori.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_kategori_add.Designer.vb">
+      <DependentUpon>form_master_data_kategori_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_kategori_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_merek.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_merek.Designer.vb">
+      <DependentUpon>form_master_data_merek.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_merek_add.Designer.vb">
+      <DependentUpon>form_master_data_merek_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_merek_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_perusahaan.Designer.vb">
+      <DependentUpon>form_master_data_perusahaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_perusahaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_supplier.Designer.vb">
+      <DependentUpon>form_master_data_supplier.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_supplier_add.Designer.vb">
+      <DependentUpon>form_master_data_supplier_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_supplier_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_user.Designer.vb">
+      <DependentUpon>form_master_data_user.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_master_data_user_add.Designer.vb">
+      <DependentUpon>form_master_data_user_add.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_master_data_user_add.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_print.Designer.vb">
+      <DependentUpon>form_print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_print_prepare.Designer.vb">
+      <DependentUpon>form_print_prepare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_print_prepare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_splash.Designer.vb">
+      <DependentUpon>form_splash.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_utama.Designer.vb">
+      <DependentUpon>form_utama.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_utama_operator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_utama_operator.Designer.vb">
+      <DependentUpon>form_utama_operator.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan.Designer.vb">
+      <DependentUpon>laporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="laporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_keuangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_keuangan.Designer.vb">
+      <DependentUpon>laporan_keuangan.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_pembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_pembelian.Designer.vb">
+      <DependentUpon>laporan_pembelian.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_penjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_penjualan.Designer.vb">
+      <DependentUpon>laporan_penjualan.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_stok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan_stok.Designer.vb">
+      <DependentUpon>laporan_stok.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pengaturan_fitur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pengaturan_fitur.Designer.vb">
+      <DependentUpon>pengaturan_fitur.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pengaturan_konfigurasi_database.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pengaturan_konfigurasi_database.Designer.vb">
+      <DependentUpon>pengaturan_konfigurasi_database.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="print_generator.vb" />
+    <Compile Include="stok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok.Designer.vb">
+      <DependentUpon>stok.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_adjusment.Designer.vb">
+      <DependentUpon>stok_adjusment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_adjusment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_keluar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_keluar.Designer.vb">
+      <DependentUpon>stok_keluar.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_masuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_masuk.Designer.vb">
+      <DependentUpon>stok_masuk.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="form_csv.resx">
+      <DependentUpon>form_csv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_delete_all.resx">
+      <DependentUpon>form_delete_all.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_currency.resx">
+      <DependentUpon>form_master_currency.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_currency_add.resx">
+      <DependentUpon>form_master_data_currency_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_customer_add.resx">
+      <DependentUpon>form_master_data_customer_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_about.resx">
+      <DependentUpon>form_about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_login.resx">
+      <DependentUpon>form_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_customer.resx">
+      <DependentUpon>form_master_data_customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_gudang.resx">
+      <DependentUpon>form_master_data_gudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_gudang_add.resx">
+      <DependentUpon>form_master_data_gudang_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_kas.resx">
+      <DependentUpon>form_master_data_kas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_kategori.resx">
+      <DependentUpon>form_master_data_kategori.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_kategori_add.resx">
+      <DependentUpon>form_master_data_kategori_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_merek.resx">
+      <DependentUpon>form_master_data_merek.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_merek_add.resx">
+      <DependentUpon>form_master_data_merek_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_perusahaan.resx">
+      <DependentUpon>form_master_data_perusahaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_supplier.resx">
+      <DependentUpon>form_master_data_supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_supplier_add.resx">
+      <DependentUpon>form_master_data_supplier_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_user.resx">
+      <DependentUpon>form_master_data_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_master_data_user_add.resx">
+      <DependentUpon>form_master_data_user_add.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_print.resx">
+      <DependentUpon>form_print.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_print_prepare.resx">
+      <DependentUpon>form_print_prepare.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_splash.resx">
+      <DependentUpon>form_splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_utama.resx">
+      <DependentUpon>form_utama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_utama_operator.resx">
+      <DependentUpon>form_utama_operator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan.resx">
+      <DependentUpon>laporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_keuangan.resx">
+      <DependentUpon>laporan_keuangan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_pembelian.resx">
+      <DependentUpon>laporan_pembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_penjualan.resx">
+      <DependentUpon>laporan_penjualan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laporan_stok.resx">
+      <DependentUpon>laporan_stok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pengaturan_fitur.resx">
+      <DependentUpon>pengaturan_fitur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pengaturan_konfigurasi_database.resx">
+      <DependentUpon>pengaturan_konfigurasi_database.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok.resx">
+      <DependentUpon>stok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_adjusment.resx">
+      <DependentUpon>stok_adjusment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_keluar.resx">
+      <DependentUpon>stok_keluar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_masuk.resx">
+      <DependentUpon>stok_masuk.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JStockInventory2_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tombol1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tombol2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tombol3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tombol4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tombol5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tombol6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_save.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_cancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_edit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_delete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_tambah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_tambah_new.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_retry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_cari_data.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_penjualan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_pembelian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_stok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_keuangan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stok_in.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stok_out.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconc_printf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconc_CSV.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconc_pdf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_stok_histori.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_stok_masuk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lap_stok_keluar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_adjust.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconc_print_preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kosong.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
