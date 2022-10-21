@@ -1,7 +1,14 @@
 Simple Python HTTPD
+by Robotsoft
+
+https://github.com/antoniusrobotsoft/
+https://www.robotsoft.co.id
+
 
 based on http.server
 
-https://github.com/antoniusrobotsoft/
+How to run ? 
 
-https://www.robotsoft.co.id
+python3 phttpd.py 8080
+
+
