@@ -7,3 +7,5 @@ keywords = ["aplikasi", "web", "server", "komputer", "software", "sistem informa
 written by Antonius Robotsoft
 
 use crontab to run every 24 hours to get updated result
+
+result will be on tender.html
